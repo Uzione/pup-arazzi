@@ -40,13 +40,8 @@ app.add_middleware(
 # =========================================================
 
 MODEL_PATH = Path(
-    r"C:\Users\wooji\OneDrive\바탕 화면\server\best.pt"
+#    r"모델 경로를 입력해주세요"
 )
-
-# 60 epoch 완료 후에는 chunk_060 best.pt로 변경
-# MODEL_PATH = Path(
-#     r"C:\Users\우지원\Desktop\dog_skin_yolo_project\runs\segment\dog_skin_5class_yolov8s_seg_chunk_060\weights\best.pt"
-# )
 
 # confidence 10% 이상만 검출 후보로 사용
 MODEL_CONF = 0.10
