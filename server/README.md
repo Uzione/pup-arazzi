@@ -14,14 +14,6 @@
 
 이미지 업로드를 테스트 합니다.
 
-### `check_raw_bad_images.py`
-
-원본 이미지 중 손상되었거나 OpenCV/Pillow에서 읽을 수 없는 이미지를 검사합니다.
-
-### `train_yolo.py`
-
-YOLOv8s-seg 모델을 10 epoch chunk 방식으로 학습합니다.
-
 ## GitHub 제외 항목
 
 다음 항목은 GitHub에 포함하지 않습니다.
